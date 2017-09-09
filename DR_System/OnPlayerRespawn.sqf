@@ -1,0 +1,1 @@
+[] execVM "DR_System\DR_Teleport\AddMenu.sqf";
