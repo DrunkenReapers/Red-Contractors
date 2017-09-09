@@ -5,7 +5,7 @@ waitUntil {!isNull player};
 waitUntil {player == player};
 
 if (isMultiplayer) then {
-	[] execVM "briefing.sqf";
+	//[] execVM "briefing.sqf";
 	if (!isServer) then {
 		call compile preprocessFileLineNumbers "initVar.sqf";
 		if (!hasInterface) then {
