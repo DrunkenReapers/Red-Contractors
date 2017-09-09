@@ -8,7 +8,7 @@ class EditorData
 	toggles=517;
 	class ItemIDProvider
 	{
-		nextID=1593;
+		nextID=1594;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=153;
+		nextID=158;
 	};
 	class Camera
 	{
@@ -107,14 +107,13 @@ addons[]=
 	"A3_Structures_F_Mil_Flags",
 	"A3_Modules_F",
 	"A3_Modules_F_Hc",
-	"cba_xeh",
-	"A3_Supplies_F_Exp_Ammoboxes"
+	"cba_xeh"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=51;
+		items=50;
 		class Item0
 		{
 			className="A3_Structures_F";
@@ -448,13 +447,6 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item50
-		{
-			className="A3_Supplies_F_Exp";
-			name="Arma 3 Apex - Ammoboxes and Supplies";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
 	};
 };
 randomSeed=10385028;
@@ -515,7 +507,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=346;
+		items=345;
 		class Item0
 		{
 			dataType="Object";
@@ -19168,42 +19160,33 @@ class Mission
 		};
 		class Item323
 		{
-			dataType="Marker";
-			position[]={20812.43,0,7211.5806};
-			name="respawn";
-			type="Empty";
-			id=1334;
-			atlOffset=-28.988699;
-		};
-		class Item324
-		{
 			dataType="Layer";
 			name="Checkpoint Bunker";
 			id=1362;
 			atlOffset=185.97;
 		};
-		class Item325
+		class Item324
 		{
 			dataType="Layer";
 			name="Checkpoint H-Barrier";
 			id=1441;
 			atlOffset=185.97;
 		};
-		class Item326
+		class Item325
 		{
 			dataType="Layer";
 			name="Checkpoint H-Barrier";
 			id=1520;
 			atlOffset=185.97;
 		};
-		class Item327
+		class Item326
 		{
 			dataType="Layer";
 			name="Checkpoint Watchtower";
 			id=1562;
 			atlOffset=185.97;
 		};
-		class Item328
+		class Item327
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -19504,7 +19487,7 @@ class Mission
 				nAttributes=15;
 			};
 		};
-		class Item329
+		class Item328
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -19804,7 +19787,7 @@ class Mission
 				nAttributes=15;
 			};
 		};
-		class Item330
+		class Item329
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -20105,7 +20088,7 @@ class Mission
 				nAttributes=15;
 			};
 		};
-		class Item331
+		class Item330
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -20404,7 +20387,7 @@ class Mission
 				nAttributes=15;
 			};
 		};
-		class Item332
+		class Item331
 		{
 			dataType="Object";
 			class PositionInfo
@@ -20463,7 +20446,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item333
+		class Item332
 		{
 			dataType="Object";
 			class PositionInfo
@@ -20524,7 +20507,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item334
+		class Item333
 		{
 			dataType="Object";
 			class PositionInfo
@@ -20560,14 +20543,14 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""launch_RPG32_F"",""arifle_TRG20_F"",""arifle_TRG21_F"",""arifle_TRG21_GL_F"",""srifle_DMR_06_camo_F"",""srifle_DMR_06_olive_F"",""LMG_Mk200_F"",""FirstAidKit""],[1,1,4,1,1,1,2,10]],[[""30Rnd_556x45_Stanag"",""200Rnd_65x39_cased_Box"",""20Rnd_762x51_Mag"",""1Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""Chemlight_blue"",""RPG32_F"",""RPG32_HE_F"",""HandGrenade"",""MiniGrenade"",""SmokeShell"",""SmokeShellGreen"",""UGL_FlareWhite_F"",""UGL_FlareGreen_F""],[24,6,12,6,2,2,6,3,1,6,6,2,2,2,2]],[[""Binocular"",""Rangefinder"",""acc_flashlight"",""bipod_03_F_oli"",""V_Chestrig_oli"",""V_TacVest_blk"",""ALIVE_Tablet""],[1,1,2,2,4,4,100]],[[""B_TacticalPack_blk""],[2]]],false]";
+							value="[[[[""launch_RPG32_F"",""arifle_TRG20_F"",""arifle_TRG21_F"",""arifle_TRG21_GL_F"",""srifle_DMR_06_camo_F"",""srifle_DMR_06_olive_F"",""LMG_Mk200_F"",""FirstAidKit""],[1,1,4,1,1,1,2,10]],[[""30Rnd_556x45_Stanag"",""200Rnd_65x39_cased_Box"",""20Rnd_762x51_Mag"",""1Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""Chemlight_blue"",""RPG32_F"",""RPG32_HE_F"",""HandGrenade"",""MiniGrenade"",""SmokeShell"",""SmokeShellGreen"",""UGL_FlareWhite_F"",""UGL_FlareGreen_F""],[24,6,12,6,2,2,6,3,1,6,6,2,2,2,2]],[[""Binocular"",""Rangefinder"",""acc_flashlight"",""bipod_03_F_oli"",""V_Chestrig_oli"",""V_TacVest_blk""],[1,1,2,2,4,4]],[[""B_TacticalPack_blk""],[2]]],false]";
 						};
 					};
 				};
 				nAttributes=1;
 			};
 		};
-		class Item335
+		class Item334
 		{
 			dataType="Object";
 			class PositionInfo
@@ -20586,7 +20569,7 @@ class Mission
 			type="Flag_FIA_F";
 			atlOffset=1.9073486e-006;
 		};
-		class Item336
+		class Item335
 		{
 			dataType="Group";
 			side="West";
@@ -20662,7 +20645,7 @@ class Mission
 			};
 			id=1580;
 		};
-		class Item337
+		class Item336
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -20675,7 +20658,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.78258324;
 		};
-		class Item338
+		class Item337
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -20688,7 +20671,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.75351334;
 		};
-		class Item339
+		class Item338
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -20701,7 +20684,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.25758934;
 		};
-		class Item340
+		class Item339
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -20714,7 +20697,7 @@ class Mission
 			type="Logic";
 			atlOffset=-0.0060844421;
 		};
-		class Item341
+		class Item340
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -20727,7 +20710,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.69163895;
 		};
-		class Item342
+		class Item341
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -20740,7 +20723,7 @@ class Mission
 			type="HighCommand";
 			atlOffset=0.082685471;
 		};
-		class Item343
+		class Item342
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -20752,7 +20735,7 @@ class Mission
 			type="HighCommandSubordinate";
 			atlOffset=0.066329956;
 		};
-		class Item344
+		class Item343
 		{
 			dataType="Object";
 			class PositionInfo
@@ -20771,22 +20754,15 @@ class Mission
 			type="Campfire_burning_F";
 			atlOffset=-2.6702881e-005;
 		};
-		class Item345
+		class Item344
 		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={20811.1,29.386633,7196.1675};
-				angles[]={0.0012918708,4.4801688,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=1592;
-			type="Box_NATO_Equip_F";
-			atlOffset=-5.7220459e-006;
+			dataType="Marker";
+			position[]={20831.301,29.009275,7212.9097};
+			name="respawn_west";
+			text="Your Headquarters";
+			type="hd_flag";
+			colorName="ColorWEST";
+			id=1593;
 		};
 	};
 	class Connections
