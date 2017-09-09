@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=133;
+		nextID=148;
 	};
 	class Camera
 	{
-		pos[]={20822.828,34.394955,7225.5913};
-		dir[]={-0.071904346,-0.40982607,-0.90933478};
-		up[]={-0.032304704,0.91216433,-0.40855557};
-		aside[]={-0.99689651,9.0445974e-007,0.078827702};
+		pos[]={20821.783,31.284388,7221.1953};
+		dir[]={0.33720434,-0.41407272,-0.8455193};
+		up[]={0.15339616,0.9102416,-0.3846266};
+		aside[]={-0.92888743,1.2392411e-006,-0.3704522};
 	};
 };
 binarizationWanted=0;
@@ -20592,8 +20592,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20834.223,29.049685,7210.0361};
-						angles[]={0.0066682254,3.6447012,0.0066682254};
+						position[]={20824.123,28.987932,7209.2388};
+						angles[]={0,3.6447012,0.0039967569};
 					};
 					side="West";
 					flags=6;
@@ -20751,8 +20751,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={20831.031,29.234146,7211.8457};
-				angles[]={0.0066682254,3.6447012,0.0066682254};
+				position[]={20826.248,29.211744,7209.4536};
+				angles[]={0.0039967569,3.6447012,0};
 			};
 			side="Empty";
 			flags=4;
@@ -20763,7 +20763,6 @@ class Mission
 			};
 			id=1591;
 			type="Campfire_burning_F";
-			atlOffset=-7.6293945e-006;
 		};
 	};
 	class Connections

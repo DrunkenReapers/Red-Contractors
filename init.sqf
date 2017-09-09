@@ -1,7 +1,7 @@
 //Arma 3 - Antistasi by Barbolani
 //Do whatever you want with this code, but credit me for the thousand hours spent making this.
 enableSaving [ false, false ];
-[] execVM "DR_System\Init_DR_System.sqf";
+//[] execVM "DR_System\Init_DR_System.sqf";
 
 call AS_fnc_init_hq;
 
@@ -37,7 +37,7 @@ if (!isMultiPlayer) then {
     [] execVM "modBlacklist.sqf";
 };
 
-waitUntil {(!isNil "saveFuncsLoaded") and (!isNil "serverInitDone")};
+//waitUntil {(!isNil "saveFuncsLoaded") and (!isNil "serverInitDone")};
 
 call jn_fnc_logistics_init;
 cajaVeh call jn_fnc_garage_init;
